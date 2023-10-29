@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Juego de adivinar el número</title>
+</head>
+
+<body>
+  <div class="juego">
+  <h1>Adivina Mi Número</h1>
+  <img src="imagenes/Mago_fractal_beta_Optimizado_corregido_simple.png" alt="">
+  <p>Introduce un número entre 1 y 100:</p>
+  <input type="number" id="numeroEntrada"> <br><br>
+  <button onclick="check()">Comprobar</button>
+  <a href=""><button>Reiniciar</button></a>
+  <p id="mensaje">¡A JUGAR!</p>
+  <p id="cantidad">Cantidad de intentos</p>
+  <p id="intento"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
